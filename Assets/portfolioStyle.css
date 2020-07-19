@@ -109,8 +109,15 @@
         float: right;
         padding: 18px;
     }
-
+    /* main CSS */
     .card{
         width: 44%;
+    }
+}
+
+@media screen and (min-width:980px){
+    /* Main CSS */
+    .card{
+        width: 28%;
     }
 }
