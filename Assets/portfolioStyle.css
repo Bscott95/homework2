@@ -48,13 +48,26 @@
     color: gray;
 }
 
-.btn{
-    background-color: #32a89e;
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.card{
+    margin: 20px;
     border: none;
 }
 
-.btn:hover{
-    background-color: gray;
+.card-title{
+    background-color: #32a89e;
+    width: 100%;
+    margin-top: 45%;
+    padding: 10px;
+}
+
+.card-img-overlay{
+    padding: 0px;
 }
 
 /* CSS for footer */
@@ -97,10 +110,7 @@
         padding: 18px;
     }
 
-    /* Main CSS */
-    .content{
-        width: 720px;
+    .card{
+        width: 44%;
     }
-   
 }
-
