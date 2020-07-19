@@ -5,13 +5,6 @@
 }
 
 /* Nav bar CSS */
-.header{
-    width: 100vw;
-    /* position: relative; */
-    clear: both;
-    /* display: flex; */
-}
-
 .title{
     background-color: #32a89e;
     color: white;
@@ -34,7 +27,7 @@
 /* CSS for Main */
 .mainSection{
     background-color: lightgray;
-    height: 1000px;
+    height: 100%;
     padding-top: 1px;
 }
 
@@ -58,7 +51,7 @@
 
 p{
     color: gray;
-    padding: 10px;
+    padding-top: 20px;
 }
 
 /* CSS for footer */
@@ -85,24 +78,39 @@ p{
 
 /* Nav Bar Media Queries */
 @media screen and (min-width:768px){
+    .header{
+        height: 76px;
+    }
+    
     .title{
         width: auto; 
         margin-left: 20px;
         float: left;
     }
-}
-@media screen and (min-width:768px){
+
     .nav{
         /* width: 200px; */
-        /* float: right; */
+        float: right;
+        /* position: relative; */
         padding: 18px;
-        display: flex;
-        justify-content: flex-end;
+        /* left: 150px; */
+        /* display: flex;
+        justify-content: flex-end; */
     }
-}
-@media screen and (min-width:768px){
+
     #catImage{
-        height: 200px;
-        width: 200px;
+        height: auto;
+        width: 300px;
+        float: left;
+        clear: right;
+        margin-right: 20px;
+
+    }
+   
+}
+
+@media screen and (min-width:980px){
+    .content{
+        width: 940px;
     }
 }
